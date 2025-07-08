@@ -1,116 +1,76 @@
 {
   "model_rankings": {
-    "OpenAI GPT-4": 0.85,
-    "Google Gemini Pro": 0.3828847537781431,
-    "Anthropic Claude-3": 0.165126050420168
+    "Claude 3.5 Sonnet": 88.42,
+    "Groq Llama3-8B": 72.03
   },
   "detailed_metrics": {
-    "compression_ratio": [
+    "faithfulness": [
       {
-        "model": "OpenAI GPT-4",
-        "value": 0.06377079482439926,
-        "description": "Отношение длины суммаризации к исходному тексту: 0.064"
+        "model": "Claude 3.5 Sonnet",
+        "value": 100.0,
+        "description": "Верность исходному тексту: 100.0%"
       },
       {
-        "model": "Anthropic Claude-3",
-        "value": 0.07301293900184842,
-        "description": "Отношение длины суммаризации к исходному тексту: 0.073"
-      },
-      {
-        "model": "Google Gemini Pro",
-        "value": 0.06931608133086876,
-        "description": "Отношение длины суммаризации к исходному тексту: 0.069"
+        "model": "Groq Llama3-8B",
+        "value": 100.0,
+        "description": "Верность исходному тексту: 100.0%"
       }
     ],
-    "information_density": [
+    "coverage": [
       {
-        "model": "OpenAI GPT-4",
-        "value": 0.9523809523809523,
-        "description": "Доля уникальных слов (без стоп-слов): 0.952"
+        "model": "Claude 3.5 Sonnet",
+        "value": 92.9,
+        "description": "Покрытие ключевых тем: 92.9%"
       },
       {
-        "model": "Anthropic Claude-3",
-        "value": 0.863013698630137,
-        "description": "Доля уникальных слов (без стоп-слов): 0.863"
-      },
-      {
-        "model": "Google Gemini Pro",
-        "value": 0.8732394366197183,
-        "description": "Доля уникальных слов (без стоп-слов): 0.873"
+        "model": "Groq Llama3-8B",
+        "value": 64.3,
+        "description": "Покрытие ключевых тем: 64.3%"
       }
     ],
-    "keyword_coverage": [
+    "prompt_adherence": [
       {
-        "model": "OpenAI GPT-4",
-        "value": 0.05263157894736842,
-        "description": "Доля ключевых терминов, упомянутых в суммаризации: 0.053"
+        "model": "Claude 3.5 Sonnet",
+        "value": 100.0,
+        "description": "Следование инструкциям: 100.0%"
       },
       {
-        "model": "Anthropic Claude-3",
-        "value": 0.0,
-        "description": "Доля ключевых терминов, упомянутых в суммаризации: 0.000"
-      },
-      {
-        "model": "Google Gemini Pro",
-        "value": 0.0,
-        "description": "Доля ключевых терминов, упомянутых в суммаризации: 0.000"
+        "model": "Groq Llama3-8B",
+        "value": 60.0,
+        "description": "Следование инструкциям: 60.0%"
       }
     ],
-    "readability": [
+    "coherence": [
       {
-        "model": "OpenAI GPT-4",
-        "value": 1.175,
-        "description": "Оценка читаемости текста (0-1): 1.175"
+        "model": "Claude 3.5 Sonnet",
+        "value": 80.0,
+        "description": "Связность текста: 80.0%"
       },
       {
-        "model": "Anthropic Claude-3",
-        "value": 1.1857142857142857,
-        "description": "Оценка читаемости текста (0-1): 1.186"
-      },
-      {
-        "model": "Google Gemini Pro",
-        "value": 1.28125,
-        "description": "Оценка читаемости текста (0-1): 1.281"
+        "model": "Groq Llama3-8B",
+        "value": 80.0,
+        "description": "Связность текста: 80.0%"
       }
     ],
-    "structural_quality": [
+    "compression": [
       {
-        "model": "OpenAI GPT-4",
-        "value": 0.3,
-        "description": "Оценка структурной организации текста: 0.300"
+        "model": "Claude 3.5 Sonnet",
+        "value": 32.1,
+        "description": "Коэффициент сжатия: 32.1"
       },
       {
-        "model": "Anthropic Claude-3",
-        "value": 0.3,
-        "description": "Оценка структурной организации текста: 0.300"
-      },
-      {
-        "model": "Google Gemini Pro",
-        "value": 0.3,
-        "description": "Оценка структурной организации текста: 0.300"
-      }
-    ],
-    "technical_terminology": [
-      {
-        "model": "OpenAI GPT-4",
-        "value": 0.013888888888888888,
-        "description": "Доля технических терминов в тексте: 0.014"
-      },
-      {
-        "model": "Anthropic Claude-3",
-        "value": 0.0,
-        "description": "Доля технических терминов в тексте: 0.000"
-      },
-      {
-        "model": "Google Gemini Pro",
-        "value": 0.0,
-        "description": "Доля технических терминов в тексте: 0.000"
+        "model": "Groq Llama3-8B",
+        "value": 19.6,
+        "description": "Коэффициент сжатия: 19.6"
       }
     ]
   },
   "summary": {
-    "total_models": 3,
-    "best_model": "OpenAI GPT-4",
-    "analysis_date": "null"
+    "total_models": 2,
+    "best_model": "Claude 3.5 Sonnet",
+    "analysis_date": "2025-07-08",
+    "winner_score": 88.42,
+    "runner_up_score": 72.03,
+    "score_difference": 16.39
   }
-}
+} 
