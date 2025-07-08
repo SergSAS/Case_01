@@ -20,7 +20,7 @@ class LLMAnalyzer:
     def __init__(self):
         """Инициализация анализатора."""
         self.metrics_weights = {
-            'faithfulness': 0.30,    # Верность исходному тексту
+            'faithfulness': 0.30,    # Соответствие исходному тексту
             'coverage': 0.25,        # Покрытие ключевых тем
             'prompt_adherence': 0.20,  # Следование инструкциям
             'coherence': 0.15,       # Связность текста
@@ -29,7 +29,7 @@ class LLMAnalyzer:
     
     def calculate_faithfulness(self, summary: str, source_facts: List[str]) -> float:
         """
-        Вычисляет метрику верности исходному тексту.
+        Вычисляет метрику соответствия исходному тексту.
         
         Args:
             summary: Текст суммаризации
