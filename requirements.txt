@@ -1,0 +1,12 @@
+# Core dependencies
+groq>=0.4.1
+python-dotenv>=1.0.0
+
+# Optional dependencies for additional features
+# anthropic>=0.18.1  # For Claude API support
+# openai>=1.12.0     # For GPT API support
+
+# Development dependencies (optional)
+# black>=23.12.1     # Code formatter
+# pylint>=3.0.3      # Code linter
+# pytest>=7.4.4      # Testing framework 
