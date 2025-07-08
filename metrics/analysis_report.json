@@ -1,7 +1,7 @@
 {
   "model_rankings": {
-    "Claude 3.5 Sonnet": 88.42,
-    "Groq Llama3-8B": 72.03
+    "Claude 3.5 Sonnet": 86.38,
+    "Groq Llama3-8B": 68.49
   },
   "detailed_metrics": {
     "faithfulness": [
@@ -19,13 +19,13 @@
     "coverage": [
       {
         "model": "Claude 3.5 Sonnet",
-        "value": 92.9,
-        "description": "Покрытие ключевых тем: 92.9%"
+        "value": 80.0,
+        "description": "Покрытие ключевых тем: 80.0%"
       },
       {
         "model": "Groq Llama3-8B",
-        "value": 64.3,
-        "description": "Покрытие ключевых тем: 64.3%"
+        "value": 50.0,
+        "description": "Покрытие ключевых тем: 50.0%"
       }
     ],
     "prompt_adherence": [
@@ -43,8 +43,8 @@
     "coherence": [
       {
         "model": "Claude 3.5 Sonnet",
-        "value": 80.0,
-        "description": "Связность текста: 80.0%"
+        "value": 90.0,
+        "description": "Связность текста: 90.0%"
       },
       {
         "model": "Groq Llama3-8B",
@@ -55,22 +55,26 @@
     "compression": [
       {
         "model": "Claude 3.5 Sonnet",
-        "value": 32.1,
-        "description": "Коэффициент сжатия: 32.1"
+        "value": 28.8,
+        "description": "Коэффициент сжатия: 28.8"
       },
       {
         "model": "Groq Llama3-8B",
-        "value": 19.6,
-        "description": "Коэффициент сжатия: 19.6"
+        "value": 19.9,
+        "description": "Коэффициент сжатия: 19.9"
       }
     ]
+  },
+  "word_counts": {
+    "Claude 3.5 Sonnet": 146,
+    "Groq Llama3-8B": 211
   },
   "summary": {
     "total_models": 2,
     "best_model": "Claude 3.5 Sonnet",
-    "analysis_date": "2025-07-08",
-    "winner_score": 88.42,
-    "runner_up_score": 72.03,
-    "score_difference": 16.39
+    "analysis_date": "2025-01-07",
+    "winner_score": 86.38,
+    "runner_up_score": 68.49,
+    "score_difference": 17.89
   }
 } 
